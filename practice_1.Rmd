@@ -1,0 +1,12 @@
+---
+title: "practice_1"
+output: html_document
+---
+##SangHyun Yi, 2011-13343
+```{r}
+model = lm(Ozone ~ Wind, data = airquality)
+summary(model)
+plot(airquality[,"Wind"], airquality[,"Ozone"])
+abline(model)
+```
+
